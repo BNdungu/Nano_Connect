@@ -2,12 +2,13 @@
 #include "secrets.h"
 #include "definations.h"
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
 
   scanWiFi();
 }
 
-void loop() {
-    scanWiFi();                  
+void loop()
+{
 }
